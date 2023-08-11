@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgba(221, 236, 240, 0.562);
+    color: rgba(189, 181, 169, 0.934);
+    text-align: center;
+    padding: 10px;
+}
+
+nav{
+    background-color: rgba(230, 220, 220, 0.811);
+    padding: 10px;
+}
+
+.box-button{
+    background-color: whitesmoke;
+    border-radius: 2px;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration:none;
+    display: inline-flex;
+    font-size: 16px;
+    border-radius: 4px;
+
+
+}
+
+nav li{
+    margin: 0 20px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+}
+
+.section{
+    padding: 15px 25px;
+    height: 400px;
+    width: 100%;
+    background-color: #86dbec;
+    font-weight: bolder;
+}
+.vgi{
+    width: 190px;
+    height: 210px;
+    margin-left: 10px;
+    margin-top: 24px;
+    border: 1px solid rgb(243, 237, 237);
+    border-radius: 5px;
+}
+.section1{
+    padding: 15px 25px;
+    background-image: linear-gradient(to bottom, rgb(140, 205, 231), rgb(198, 236, 236));
+}
+
+
+
+.section2{
+    padding: 15px 25px;
+    background-image: linear-gradient(to bottom, rgb(145, 251, 255), rgb(119, 230, 228));
+}
+
+.section3{
+    padding: 15px 25px;
+    background-image: linear-gradient(to bottom, rgb(137, 208, 239), rgb(128, 231, 242));
+}
+
+.section4{
+    padding: 15px 25px;
+    background-image: linear-gradient(to bottom, rgb(139, 194, 240), rgb(115, 214, 236));
+}
+
+h1{
+    text-align: left;
+   
+}
+
